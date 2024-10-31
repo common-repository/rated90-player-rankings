@@ -1,0 +1,67 @@
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+a {color: #000; text-decoration: none;}
+body {
+	line-height: 1;
+	font-family: 'Ubuntu','Palatino Linotype', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.r90pwidget{color: #000;}
+.r90pwidget div:first-child {background: url(images/rated90.widget.slice.png) repeat-x top left; height: 63px;}
+.r90pwidget div:first-child p {color: #fff; font-size: 1.2em; font-weight: bold; text-align: center; font-weight: 400;}
+.r90pwidget div:first-child p:first-child {padding: 8px 0 0 0;}
+.r90pwidget div:first-child p + p {font-size: 2.7em; font-weight: 700;}
+.r90pwidget table {background: url(images/rated90.widget.thead.png) repeat-x top left; width: 100%; min-width: 160px; border-top: 1px solid #6c5555;}
+.r90pwidget table thead tr {height: 16px;}
+.r90pwidget table thead th {color: #fff; margin: 0; padding: 1px 0 0 0; font-size: 11px; line-height: 1.0em;}
+.r90pwidget table thead th.r90pwidgetname {text-align: left;}
+.r90pwidget table tr th.r90pwidgetrank, .r90pwidget table tr th.r90pwidgetrating {text-align: center;}
+.r90pwidget table tbody tr {border-top: 3px solid #fff; border-bottom: 4px solid #fff;}
+.r90pwidget table tbody tr td{background: #eaeaea; padding: 2px 0; vertical-align: middle;}
+.r90pwidget table tr td.r90pwidgetrank, .r90pwidget table tr td.r90pwidgetrating {text-align: center;}
+.r90pwidget table tr .r90pwidgetrating {width: 30.43%;}
+.r90pwidget table tr .r90pwidgetrank {width: 27.63%;}
+.r90pwidget table tr td.r90pwidgetrank span {width: 19px; height: 17px; display: inline-block; color: #fff; font-weight: bold; background: url(images/rated90.widget.num.bg.png) left center no-repeat; padding: 2px 0 0 0; font-size: 15px;}
+.r90pwidget table tr .r90pwidgetname {width: 41.90%;}
+.r90pwidget table + div {background: url(images/rated90.widget.footer.png) repeat-x top left; height: 28px;}
+.r90pwidget table + div p {font-size: 11px; text-align: center;}
+.r90pwidget table + div p:first-child {padding-top: 8px;}
+.r90pwidget table + div p + p {text-align: right; font-size: 8px; padding: 2px 4px 0 0;}
+.r90pwidget table + div p a {color: #fff; text-decoration: underline;}
